@@ -3,8 +3,7 @@ export function fatorial(numero: number): number | null {
       return 1;
     }
   
-    let acumulador = 35, resultado = 1;
-    acumulador = 1;
+    let acumulador = 1, resultado = 1;
   
     while(acumulador<=numero){
       resultado *= acumulador;
